@@ -1,0 +1,3 @@
+﻿TASK,MATCHED,TARGET_CONDITION,TARGET_PICTURE,TARGET_AUDIO,TARGET_WORD,TARGET_English,COMP_1_PICTURE,COMP_1_WORD,COMP_2_PICTURE,COMP_2_WORD,COMP_3_PICTURE,COMP_3_WORD,TARGET_POSITION,COMP_1_POSITION,COMP_2_POSITION,COMP_3_POSITION,CB
+Practice,Practice,Practice,PICTURE_1.png,practice_raton.wav,ratón,rat,PICTURE_2.png,rueda,PICTURE_3.png,escalón,PICTURE_4.png,altar,UR,LR,UL,LL,Practice
+Practice,Practice,Practice,PICTURE_2.png,practice_rueda.wav,rueda,tire,PICTURE_3.png,escalón,PICTURE_4.png,altar,PICTURE_1.png,ratón,LL,UL,LR,UR,Practice

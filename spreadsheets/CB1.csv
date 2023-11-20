@@ -1,0 +1,13 @@
+﻿TASK,MATCHED,TARGET_CONDITION,TARGET_PICTURE,TARGET_AUDIO,TARGET_WORD,TARGET_English,COMP_1_PICTURE,COMP_1_WORD,COMP_2_PICTURE,COMP_2_WORD,COMP_3_PICTURE,COMP_3_WORD,TARGET_POSITION,COMP_1_POSITION,COMP_2_POSITION,COMP_3_POSITION,CB
+Test,1,TRAINED,PICTURE_19.png,french_pavo.wav,pavo,turkey,PICTURE_411.png,puño,PICTURE_668.png,pollo,Pecho.png,pecho,LL,LR,UL,UR,CB1
+Test,1,FILLER,Pecho.png,french_pecho.wav,pecho,chest,PICTURE_19.png,pavo,PICTURE_411.png,puño,PICTURE_668.png,pollo,UL,UR,LR,LL,CB1
+Test,1,CONTROL,PICTURE_668.png,french_pollo.wav,pollo,chicken,Pecho.png,pecho,PICTURE_19.png,pavo,PICTURE_411.png,puño,UR,UL,LL,LR,CB1
+Test,1,UNTRAINED,PICTURE_411.png,french_puno.wav,puño,fist,PICTURE_668.png,pollo,Pecho.png,pecho,PICTURE_19.png,pavo,UL,UR,LR,LL,CB1
+Test,2,TRAINED,PICTURE_583.png,french_nave.wav,nave,ship,PICTURE_599.png,nube,PICTURE_342.png,noche,PICTURE_499.png,niño,UL,UR,LL,LR,CB1
+Test,2,FILLER,PICTURE_499.png,french_nino.wav,niño,child,PICTURE_583.png,nave,PICTURE_599.png,nube,PICTURE_342.png,noche,UL,UR,LR,LL,CB1
+Test,2,CONTROL,PICTURE_342.png,french_noche.wav,noche,evening,PICTURE_499.png,niño,PICTURE_583.png,nave,PICTURE_599.png,nube,LL,LR,UR,UL,CB1
+Test,2,UNTRAINED,PICTURE_599.png,french_nube.wav,nube,cloud,PICTURE_342.png,noche,PICTURE_499.png,niño,PICTURE_583.png,nave,UL,UR,LL,LR,CB1
+Test,3,TRAINED,PICTURE_666.png,french_cafe.wav,café,coffee,PICTURE_595.png,cubo,PICTURE_163.png,coco,Queso.png,queso,LR,LL,UR,UL,CB1
+Test,3,CONTROL,PICTURE_163.png,french_coco.wav,coco,coconut,Queso.png,queso,PICTURE_666.png,café,PICTURE_595.png,cubo,LR,LL,UR,UL,CB1
+Test,3,UNTRAINED,PICTURE_595.png,french_cubo.wav,cubo,cube,PICTURE_163.png,coco,Queso.png,queso,PICTURE_666.png,café,LR,LL,UL,UR,CB1
+Test,3,FILLER,Queso.png,french_queso.wav,queso,cheese,PICTURE_666.png,café,PICTURE_595.png,cubo,PICTURE_163.png,coco,LR,LL,UR,UL,CB1

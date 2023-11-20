@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "psychopy-eyelink-vwp"
+version = "0.1.0"
+description = "EyeLink-Compatible PsychoPy Visual World Paradigm Experiment"
+authors = ["Eduardo Diniz <edd32@pitt.edu>"]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+psychopy = {extras = ["all"], version = "2022.2.5"}
+tobii-research = "1.10.1"
+pylink = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
