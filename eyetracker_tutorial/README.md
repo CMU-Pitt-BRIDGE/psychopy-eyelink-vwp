@@ -2,7 +2,9 @@
 
 ## **Overview**
 
-- The example PsychoPy experiment and all dependent files for this walk-through can be downloaded from [this link](https://drive.google.com/drive/folders/1l9eExdAHEIINfFuExynGsz2ogor8EfDm?usp=sharing). I recommend examining/editing them on a computer connected to an EyeLink system. You will need to install PsychoPy, and it is recommended you use the same version that the example was built in: 2023.2.3.
+- The example PsychoPy experiment and all dependent files for this walk-through can be downloaded from [this link](https://github.com/CMU-Pitt-BRIDGE/psychopy-eyelink-vwp).
+
+- I recommend examining/editing them on a computer connected to an EyeLink system. You will need to install PsychoPy, and it is recommended you use the same version that the example was built in: 2023.2.3.
 - Once downloaded, you should:
 
   - Open the file **example_eyetracker.py** with the app **PsychoPy-2023.2.3 Coder.**
