@@ -6,11 +6,19 @@ authors = ["Eduardo Diniz <edd32@pitt.edu>"]
 
 [tool.poetry.dependencies]
 python = "3.8.10"
-psychopy = {extras = ["all"], version = "2022.2.5"}
-tobii-research = "1.10.1"
-pylink = "^0.3.3"
+psychopy = {extras = ["all"], version = "2023.2.3"}
+sr-research-pylink = "2.1.762"
 
 [tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = "sr-research"
+url = "https://pypi.sr-research.com"
+priority = "supplemental"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
